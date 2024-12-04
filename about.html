@@ -12,11 +12,10 @@
     <header class="bg-black py-4">
         <div class="container mx-auto px-4 flex justify-between items-center">
             <a href="index.html" class="hover:underline">
-                <img src="logo.png" alt="AiNvestigator Logo" class="h-10"> <!-- Adjust the height as needed -->
+                <img src="logo.png" alt="AiNvestigator Logo" class="h-10">
             </a>
             <nav>
                 <ul class="flex gap-6">
-                    
                     <li><a href="about.html" class="hover:underline">Our mission</a></li>
                 </ul>
             </nav>
@@ -41,14 +40,20 @@
         </div>
     </section>
 
-    <!-- Submit Investigation Button -->
-    <section class="py-12">
-        <div class="container mx-auto px-4 text-center">
-            <a 
-                href="#submit-investigation-form" 
-                class="px-6 py-2 bg-red-600 hover:bg-red-700 text-white font-bold rounded">
-                Submit an Idea for a Story
-            </a>
+    <!-- Hero Section with Image -->
+    <section class="relative h-screen">
+        <!-- Hero Image -->
+        <img src="Sus-bot2.webp" alt="Hero Image" class="absolute inset-0 w-full h-full object-cover">
+        
+        <!-- Submit Investigation Overlay -->
+        <div class="absolute bottom-0 left-0 right-0 bg-black bg-opacity-70 py-12">
+            <div class="container mx-auto px-4 text-center">
+                <a 
+                    href="#submit-investigation-form" 
+                    class="px-6 py-2 bg-red-600 hover:bg-red-700 text-white font-bold rounded">
+                    Submit an Idea for a Story
+                </a>
+            </div>
         </div>
     </section>
 
@@ -73,4 +78,5 @@
         </div>
     </footer>
 </body>
+
 </html>
